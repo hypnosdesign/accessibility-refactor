@@ -236,3 +236,7 @@ a.social:hover {
     margin: 40px auto;
   }
 }
+
+input:focus {
+  background-color: #DFE020; 
+}
