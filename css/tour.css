@@ -1,0 +1,26 @@
+/* Tour page styles */
+
+/*pre {
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+.tour-dates {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 3%
+
+}
+.tour-dates caption {
+  text-indent: -9999px;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}

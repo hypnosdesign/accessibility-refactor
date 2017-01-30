@@ -1,0 +1,63 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+form #favourite-band {
+  padding: .4em;
+  margin: 1.3em 1em 2em;
+}
+
+form #favourite-album {
+  margin: 2em 1em;
+}
+
+form #favoutite-song {
+  margin: 2em 1em;
+}
+
+form #favoutite-song textarea {
+  display: block;
+  margin: 2% 0;
+  width: 100%;
+  height: 6em;
+}
+
+form label {
+  display: inline-block;
+}
+
+form.newsletter input {
+  width: 50%;
+}
+
+form button {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+p#hint {
+  display: none;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
